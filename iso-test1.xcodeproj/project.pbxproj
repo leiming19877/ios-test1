@@ -14,6 +14,7 @@
 		B61A60151E88EAB200F0DE6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B61A60131E88EAB200F0DE6B /* LaunchScreen.storyboard */; };
 		B61A60201E88EAB200F0DE6B /* iso_test1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61A601F1E88EAB200F0DE6B /* iso_test1Tests.swift */; };
 		B61A602B1E88EAB200F0DE6B /* iso_test1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61A602A1E88EAB200F0DE6B /* iso_test1UITests.swift */; };
+		B6440A0B1E88F8E8006AEA29 /* images in Resources */ = {isa = PBXBuildFile; fileRef = B6440A0A1E88F8E8006AEA29 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B61A60261E88EAB200F0DE6B /* iso-test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iso-test1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B61A602A1E88EAB200F0DE6B /* iso_test1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iso_test1UITests.swift; sourceTree = "<group>"; };
 		B61A602C1E88EAB200F0DE6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6440A0A1E88F8E8006AEA29 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		B61A60091E88EAB200F0DE6B /* iso-test1 */ = {
 			isa = PBXGroup;
 			children = (
+				B6440A0A1E88F8E8006AEA29 /* images */,
 				B61A600A1E88EAB200F0DE6B /* AppDelegate.swift */,
 				B61A600C1E88EAB200F0DE6B /* ViewController.swift */,
 				B61A600E1E88EAB200F0DE6B /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6440A0B1E88F8E8006AEA29 /* images in Resources */,
 				B61A60151E88EAB200F0DE6B /* LaunchScreen.storyboard in Resources */,
 				B61A60121E88EAB200F0DE6B /* Assets.xcassets in Resources */,
 				B61A60101E88EAB200F0DE6B /* Main.storyboard in Resources */,
@@ -514,6 +518,7 @@
 				B61A60311E88EAB200F0DE6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B61A60321E88EAB200F0DE6B /* Build configuration list for PBXNativeTarget "iso-test1Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				B61A60341E88EAB200F0DE6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B61A60351E88EAB200F0DE6B /* Build configuration list for PBXNativeTarget "iso-test1UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				B61A60371E88EAB200F0DE6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
